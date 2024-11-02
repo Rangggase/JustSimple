@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /* Menghapus margin default */
+    background: url('https://awsimages.detik.net.id/community/media/visual/2018/09/09/3a5b7c54-7f75-4d68-b112-d676d06e8dce.jpeg?w=1200') no-repeat center center fixed; /* Ganti URL dengan gambar yang diinginkan */
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Transparansi agar latar belakang terlihat */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+#laps {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.lap {
+    margin: 5px 0;
+    padding: 5px;
+    background: rgba(240, 240, 240, 0.8);
+    border-radius: 4px;
+}
